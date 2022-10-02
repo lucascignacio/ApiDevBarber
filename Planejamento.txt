@@ -1,0 +1,20 @@
+- USUÁRIOS 
+-- BARBEIROS FAVORITOS
+-- AGENDAMENTOS
+
+- BARBEIROS
+-- FOTOS
+-- REVIEWS(feedback) 
+-- SERVICOS 
+-- DEPOIMENTOS 
+-- DISPONIBILIDADE
+
+tables:
+- users
+- userfavorites
+- userappointments
+- barbers
+- barberphotos
+- barberservices
+- barbertestimonials
+- barberavailability
