@@ -15,7 +15,7 @@
 ## Como usar
 Para Facilitar a utilizacão, use a ferramenta Postman para fazer e enviar as requisicões
 
-- Crear usuários 
+- Criar usuários 
 Route::post('/user', [AuthController::class, 'create']);
 
 ```php
