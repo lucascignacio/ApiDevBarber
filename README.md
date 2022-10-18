@@ -33,25 +33,25 @@ Route::post('/auth/login', [AuthController::class, 'login']);
 
 ```
 
-Route::post('/auth/login', [AuthController::class, 'login']); - Login
-Route::post('/auth/logout', [AuthController::class, 'logout']); - Logout
-Route::post('/auth/refresh', [AuthController::class, 'refresh']); - Refresh
-Route::post('/user', [AuthController::class, 'create']); - Create
+```Route::post('/auth/login', [AuthController::class, 'login']);``` - Login
+```Route::post('/auth/logout', [AuthController::class, 'logout']);``` - Logout
+```Route::post('/auth/refresh', [AuthController::class, 'refresh']);``` - Refresh
+```Route::post('/user', [AuthController::class, 'create']);``` - Create
 
-Route::get('/user', [UserController::class, 'read']); - Ver informacões do usuário
-Route::put('/user', [UserController::class, 'update']); - Atualizar informacões do usuário
-Route::post('/user/avatar', [UserController::class, 'updateAvatar']); - Atualizar foto do usuário
+```Route::get('/user', [UserController::class, 'read']);``` - Ver informacões do usuário
+```Route::put('/user', [UserController::class, 'update']);``` - Atualizar informacões do usuário
+```Route::post('/user/avatar', [UserController::class, 'updateAvatar']);``` - Atualizar foto do usuário
 
-Route::get('/user/favorites', [UserController::class, 'getFavorites']); - Adicionar seu barbeiro aos favoritos e uma nota para ele
+```Route::get('/user/favorites', [UserController::class, 'getFavorites']);``` - Adicionar seu barbeiro aos favoritos e uma nota para ele
 
-Route::post('/user/favorite', [UserController::class, 'toggleFavorite']); - Ver a pontuacões dos barbeiros 
+```Route::post('/user/favorite', [UserController::class, 'toggleFavorite']);``` - Ver a pontuacões dos barbeiros 
 
-Route::get('/user/appointments', [UserController::class , 'getAppointments']); - Ver a disponibilidade da agenda do barbeiro
+```Route::get('/user/appointments', [UserController::class , 'getAppointments']);``` - Ver a disponibilidade da agenda do barbeiro
 
-Route::get('/barbers', [BarberController::class, 'list']); - Ver todos os barbeiros
-Route::get('/barber{id}', [BarberController::class, 'one']); - Ver um barbeiro específico suas qualificacões
-Route::post('/barber/{id}/appointment', [BarberController::class, 'setAppointment']); - Marcar um horario
+```Route::get('/barbers', [BarberController::class, 'list']);``` - Ver todos os barbeiros
+```Route::get('/barber{id}', [BarberController::class, 'one']);``` - Ver um barbeiro específico suas qualificacões
+```Route::post('/barber/{id}/appointment', [BarberController::class, 'setAppointment']);``` - Marcar um horario
 
-Route::get('/search', [BarberController::class, 'search']); - Pesquisar por um barbeiro
+```Route::get('/search', [BarberController::class, 'search']);``` - Pesquisar por um barbeiro
 
 Fique a vontade para contribuir de qualquer forma.
